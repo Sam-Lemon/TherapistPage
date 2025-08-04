@@ -1,0 +1,17 @@
+Media Query Breaks
+
+Typical Breakpoints (Mobile-First min-width):
+Breakpoint	Pixels	Devices
+min-width: 480px	480px	Small phones (landscape)
+min-width: 576px	576px	Larger phones, small devices
+min-width: 768px	768px	Tablets (e.g., iPad portrait)
+min-width: 992px	992px	Tablets (landscape), small laptops
+min-width: 1200px	1200px	Desktops, larger laptops
+min-width: 1400px	1400px	Very large screens
+
+
+@media (min-width: 768px) {
+    example {
+        flex-direction: row;
+    }
+}
